@@ -1,0 +1,14 @@
+# BBC Kiswahili Data Scraper
+
+This repo contains python code that scrapes data from the BBC Kiswahili website and saves the 
+data to a text file. The scraped data can then be imported into a csv file for further analysis.
+
+## Requirements
+To run the scraper yourself, you'll need the following 
+
+python 
+beautiful soup
+requests library
+
+Or you can install all the requirements (from the requirements file) by running 
+pip install -r requirements.txt
