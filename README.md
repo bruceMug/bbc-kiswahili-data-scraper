@@ -3,7 +3,7 @@ This repo contains python code that scrapes data from the [BBC Kiswahili website
 data to a text file. The scraped data can then be imported into a csv file for further analysis.
 The project was done as part of the requirements for the a friend's research project.
 
-[!bbc](/bbc.png)
+![bbc](/bbc.png)
 
 ## Requirements
 To run the scraper yourself, you'll need the following 
