@@ -6,9 +6,26 @@ data to a text file. The scraped data can then be imported into a csv file for f
 ## Requirements
 To run the scraper yourself, you'll need the following 
 
-python 
-beautiful soup
-requests library
+python 3.6 or higher
+beautifulsoup4 (4.12.2)
+requests library (2.31.0)
 
-Or you can install all the requirements (from the requirements file) by running 
-pip install -r requirements.txt
+## Usage
+1. Clone the repository to your local machine
+``` git clone https://github.com/brucemug/bbc-kiswahili-data-scraper.git```
+
+2. Navigate to the project directory
+```cd bbc-kiswahili-data-scraper```
+
+3. To run the scraper, run the following command in your terminal
+```python scraper.py```
+
+On running for the first time, the scraper will create text files in the data folder. The text files will contain the scraped data. 
+Files are titled according to the category of the news article.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT] (https://choosealicense.com/licenses/mit/)
+
