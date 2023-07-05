@@ -12,6 +12,7 @@ requests library (2.31.0 or higher)
 
 You can install the required libraries using pip. 
 ```pip install beautifulsoup4```
+
 ```pip install requests```
 
 
