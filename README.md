@@ -30,10 +30,12 @@ You can install the required libraries using pip.
 
 3. To run the scraper, run the following command in your terminal
 
-```python scraper.py```
+```python scraper.py``` || ```python3 scraper.py```
 
-** Caution: The classes (in html) to the BBC website can change at any time, and there might be a need to adjust the scraping code accordingly and also
-The scraper will take a while to run. This is because it has to make a request to the BBC Kiswahili website for each category. **
+** Caution: 
+- The classes (in html) to the BBC website can change at any time, and there might be a need to adjust the scraping code accordingly.
+
+- The scraper will take a while to run. This is because it has to make a request to the BBC Kiswahili website for each category. **
 
 On running for the first time, the scraper will create text files in the data folder. The text files will contain the scraped data. Files are titled according to the category of the article i.e. Afya.txt, Michezo.txt, etc.
 On completion, the files can be imported into a csv file for further analysis.
